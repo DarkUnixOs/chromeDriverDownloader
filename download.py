@@ -2,7 +2,7 @@ import os, sys, zipfile
 
 cwd = os.getcwd()
 
-url = "https://dootnode.org/neko/builds/nightly/ReiNX-latest.zip"
+url = "http://builds.reinx.guide/nightly/ReiNX-latest.zip"
 
 if(sys.version_info > (3, 0)):
     import urllib.request
